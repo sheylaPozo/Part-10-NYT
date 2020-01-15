@@ -20,7 +20,14 @@
 
 .tenth {
     display: flex;
+
 }
+.tenth {
+    margin-top: 45px;
+     padding-top: 20px;
+     margin-left: auto;
+     margin-right: auto; 
+ }
 
 .left-side-down {
     flex: 3;
@@ -33,11 +40,41 @@
 .right-side-down {
     flex: 1;
     order: 2;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-left: 4em;
 }
 
-.tenth {
-    margin-top: 45px;
-    padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+.mp-0 {
+    padding: 17px 0px 0px;
+    text-align: left;
+}
+.popular-news {
+    margin-top: 15px;
+    border-top: 1px solid rgb(226, 226, 226);
+    list-style: none;
+}
+.popular-news-0 {
+    text-align: left;
+}
+.popular-news-1 {
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.37;
+    text-decoration: none;
+}
+.left-side-down {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-left: 4em;
 }
