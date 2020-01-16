@@ -1,93 +1,97 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    background-color: DodgerBlue;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: DodgerBlue;
 }
 
-.flex-container>div {
-    background-color: #f1f1f1;
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-    /*  line-height: 75px; */
-    font-size: 30px;
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  /*  line-height: 75px; */
+  font-size: 30px;
 }
 
 .tenth {
-    display: flex;
-
+  display: flex;
 }
 .tenth {
-    margin-top: 45px;
-     padding-top: 20px;
-     margin-left: auto;
-     margin-right: auto; 
- }
+  margin-top: 45px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .left-side-down {
-    flex: 3;
-    order: 1;
-    max-width: 852px;
-    background-color: rgb(255, 255, 255);
-
+  flex: 3;
+  order: 1;
+  max-width: 852px;
+  background-color: rgb(255, 255, 255);
 }
 
 .right-side-down {
-    flex: 1;
-    order: 2;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.375rem;
-    padding-bottom: 15px;
-    border-top: 1px solid rgb(0, 0, 0);
-    margin-left: 4em;
+  flex: 1;
+  order: 2;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  padding-bottom: 15px;
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-left: 4em;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .mp-0 {
-    padding: 17px 0px 0px;
-    text-align: left;
+  padding: 17px 0px 0px;
+  text-align: left;
 }
 .popular-news {
-    margin-top: 15px;
-    border-top: 1px solid rgb(226, 226, 226);
-    list-style: none;
+  margin-top: 15px;
+  border-top: 1px solid rgb(226, 226, 226);
+  list-style: none;
 }
 .popular-news-0 {
-    text-align: left;
+  text-align: left;
 }
 .popular-news-1 {
-    color: rgb(18, 18, 18);
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 1.37;
-    text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.37;
+  text-decoration: none;
 }
 .left-side-down {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.375rem;
-    padding-bottom: 15px;
-    border-top: 1px solid rgb(0, 0, 0);
-    margin-left: 4em;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  padding-bottom: 15px;
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-left: 4em;
 }
 .left-side-1 {
-    max-width: 852px;
-    background-color: lawngreen;
-    border: 1px solid rgb(0, 0, 0);
+  max-width: 852px;
+  background-color: lawngreen;
+  border: 1px solid rgb(0, 0, 0);
 }
 .part-1-left,
 .part-2-left {
-    border: 1px solid red;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.small-video {
+  border: 1px solid blue;
+  width: 30%;
 }
