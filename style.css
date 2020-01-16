@@ -48,6 +48,10 @@
     border-top: 1px solid rgb(0, 0, 0);
     margin-left: 4em;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .mp-0 {
     padding: 17px 0px 0px;
@@ -77,4 +81,13 @@
     padding-bottom: 15px;
     border-top: 1px solid rgb(0, 0, 0);
     margin-left: 4em;
+}
+.left-side-1 {
+    max-width: 852px;
+    background-color: lawngreen;
+    border: 1px solid rgb(0, 0, 0);
+}
+.part-1-left,
+.part-2-left {
+    border: 1px solid red;
 }
