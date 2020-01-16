@@ -89,7 +89,14 @@ a {
 .part-2-left {
   border: 1px solid red;
   display: flex;
-  flex-wrap: nowrap;
+ flex-direction: column;
+}
+.p1-1-left,
+.p1-2-left,
+.part-2-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .small-video {
   border: 1px solid blue;
