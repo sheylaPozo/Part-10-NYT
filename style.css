@@ -53,6 +53,9 @@ a {
   padding: 17px 0px 0px;
   text-align: left;
 }
+.mp-x{
+border-bottom: 1px solid #cdcdcd;
+}
 .popular-news {
   margin-top: 15px;
   border-top: 1px solid rgb(226, 226, 226);
